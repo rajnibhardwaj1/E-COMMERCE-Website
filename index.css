@@ -1,0 +1,42 @@
+#MyNavbar {
+    background-color: black;
+    color: white;
+}
+
+h4 {
+    background-color: lightgrey;
+    padding: 7px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row-style {
+    margin-top: 20px;
+}
+
+.panel-body {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/* .btn-primary{
+    width: 350px;
+    height: 38px;
+} */
+.btn {
+    background-color: rgb(10, 7, 192);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(87, 36, 230);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
