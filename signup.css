@@ -1,8 +1,90 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('bg-4.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
-.container{ 
+.container {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 0%;
     
+
+}
+
+
+.row{
+    background-color: white;
+    margin-top: 50px;
+}
+.btn1 button {
+    background-color: rgb(15, 15, 153);
+    color: white;
+    margin: 10px 5px;
+}
+
+.btn2 button {
+    background-color: #1DA1F2;
+    color: white;
+    margin: 10px 5px;
+    padding: 6px 22px;
+}
+
+.btn3 button {
+    background-color: rgb(170, 26, 26);
+    color: white;
+    margin: 10px 5px;
+    padding: 6px 21px;
+}
+
+.btn1 button:hover {
+    background-color: blue;
+    color: white;
+    margin: 10px 5px;
+}
+
+.btn2 button:hover {
+    background-color: skyblue;
+    color: white;
+    margin: 10px 5px;
+    padding: 6px 22px;
+}
+
+.btn3 button:hover {
+    background-color: rgb(224, 80, 80);
+    color: white;
+    margin: 10px 5px;
+    padding: 6px 21px;
+}
+
+.btn1 button img {
+    width: 50px;
+    height: 25px;
+}
+
+.btn2 button img {
+    width: 25px;
+    height: 25px;
+}
+
+.btn3 button img {
+    width: 25px;
+    height: 25px;
+}
+
+.btn4 button {
+    background-color: rgb(27, 27, 105);
+    color: white;
+
+}
+
+.btn4 button:hover {
+    background-color: rgb(53, 53, 143);
+    color: white;
+
 }
