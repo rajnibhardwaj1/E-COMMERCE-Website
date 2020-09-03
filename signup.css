@@ -21,6 +21,7 @@ body {
 .row{
     background-color: white;
     margin-top: 50px;
+    border-radius: 10px;
 }
 .btn1 button {
     background-color: rgb(15, 15, 153);
@@ -63,7 +64,7 @@ body {
 }
 
 .btn1 button img {
-    
+
     width: 50px;
     height: 25px;
 }
